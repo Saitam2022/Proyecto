@@ -1,0 +1,284 @@
+body { 
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0C0C0E;
+    height: 150px;
+    padding: 20px;
+}
+
+.header__logo {
+    height: 140px;
+    text-align: center;
+}
+
+.header img {
+    width: 210px;
+    transition: .6s all;
+}
+
+.header img:hover {
+    width: 240px;
+}
+
+/* FIN HEADER */
+
+/* NAV */
+
+/* PARA EL NAV SE UTILIZÓ BOOTSTRAP GENERANDO EL MENÚ HAMBURGUESA */
+
+/* FIN NAV */
+
+/* MAIN */
+
+main {
+    grid-area: main;
+	padding: 50px;
+    text-align: justify;
+	line-height: 1.6;
+    background-color:#0C0C0E;
+	overflow:hidden;
+    height: auto;
+}
+
+main h1 {
+    background-color: grey;
+    border-radius: 25px;
+    border-color: #F21628;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px 30px;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main h2 {
+    background-color: grey;
+    border-radius: 25px;
+    border-color: #F21628;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px 30px;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.parrafoindex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parrafoindex__img {
+    height: 90vh;
+    margin: auto;
+    border-radius: 15px;
+    border-color: #0C0C0E;
+    border-style: solid;
+    border-width:medium;
+}
+ 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* FIN MAIN */
+
+/* MAIN PHOTOS */
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor__imagenes {
+    width: 100vw;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.galeria__imagen {
+    display: flex;
+    width: 500px;
+    justify-content: center;    
+}
+
+.galeria__imagen img {
+    width: 100%;
+    align-items: center;    
+}
+
+/* FIN MAIN PHOTOS */
+
+/* MAIN VIDEOS */
+
+.galeria__videos {
+    text-align: center;
+    border-style: dotted ;
+    border-width: thin;
+    border-radius: 10px;
+    overflow: hidden;
+    width:auto;
+    margin: auto;    
+}
+
+.galeria__videos iframe {
+    width: 500px;
+    height: 270px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* FIN MAIN VIDEOS */
+
+/* MAIN BAND */
+
+.listaintegrantes {
+    color: grey;
+    text-align: center;
+    list-style: none;
+}
+
+.integrantes__contenedor {
+    display: flex;
+    flex-direction:row; 
+}
+
+.band-imagenes { 
+    overflow: hidden;
+}
+
+.band-imagenes img {
+    width: 95%;
+    transition: 1.5s;
+}
+
+.band-imagenes img:hover {
+    transform: scale(110%);
+}
+
+.informacionshows {
+    color: grey;
+    text-align: center;
+    list-style: none;
+}
+
+.scorpion {
+    text-align: center;
+    margin: 20px;
+}
+
+.info__scorpion {
+    border-radius: 10px;
+    margin: auto;
+    width: 250px;
+    height: auto;
+}
+
+.form-label {
+    color: grey;
+}
+
+.form-select {
+    color: grey;
+}
+
+.form-check-label { 
+    color: grey;
+}
+
+/* FIN INFO CONTACTOS */
+
+/* FOOTER */
+
+.footer {
+    grid-area: footer;
+    background: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+#newsletterformulario {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.subscribe__button:hover {
+    background-color:#F21628;
+    color:  #0C0C0E; 
+    padding: 4px 8px;
+    font-weight: 600;
+}
+
+.footer__elemento {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.footer__link {
+    color: #F21628;
+    text-decoration: none;
+}
+
+.footer__socialimg {
+    width: 40px;
+}
+
+.footer__socialimg:hover {
+    background: #F21628;
+    border-radius: 8px;
+}
+
+.footer__creditosyterminos {
+    font-size: 12px;
+}
+
+/* FIN FOOTER */
+
